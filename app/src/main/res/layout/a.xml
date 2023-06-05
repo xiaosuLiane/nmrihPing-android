@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ServerName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:gravity=""
+            android:text="服务器:   花茶苑#纯净经典三                                           人数：1/18"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/ServerMap"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:gravity=""
+            android:text="地图名:   nmo_junction"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/ServerPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="玩家列表：\n玩家一...\n(点击查看更多)"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+</LinearLayout>

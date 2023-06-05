@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarSize="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="660sp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ServerIP"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="\n服务器IP：192.168.0.0"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/ServerName_"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="服务器名：未知"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:id="@+id/ServerMap_"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="地图：未知"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="人数：0/8"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="玩家列表："
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:id="@+id/ServerPlayer_"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1\n2\n3\n4\n5\n6\n7\n8"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/edit_bg"
+        android:text="返回" />
+</LinearLayout>
